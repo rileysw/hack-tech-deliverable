@@ -1,0 +1,56 @@
+.inner-form-container {
+  text-align: center;
+  height: 100%;
+  width: 80%;
+  margin: 10%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h3 {
+  align-self: flex-start;
+}
+
+.form input,
+.form textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: 2px solid;
+  border-color: gray;
+  border-radius: 10px;
+  resize: none;
+  padding: 10px;
+}
+
+.form input:focus,
+.form textarea:focus {
+  transform: translateY(2px);
+}
+
+.fun-fact-input {
+  height: 50px;
+}
+
+.form button {
+  align-self: flex-end;
+  background-color: orange;
+  font-size: 16px;
+  color: white;
+  margin-top: 10%;
+  height: 40px;
+  width: 100px;
+  border: 0px;
+  border-radius: 40px;
+  box-shadow: 0px 3px gray;
+}
+
+.form button:hover {
+  transform: translateY(2px);
+}
+.form button:active {
+  box-shadow: 0px 1px gray;
+  transform: translateY(4px);
+}
